@@ -8,12 +8,16 @@ selector {
 }
  */
 
- /*
-Type Selector
+ /*Type Selector*/
 
-p {
-font-size: 16px, ?pt(not always the same), 100% relative, 1em also relative(advantage to using this)
-line-height: 1.5;
+p {  /* select all <p> */
+font-size: 1em
+line-height: 1.5em;
 }
 
- */
+figcaption {
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  line-height: Georgia, "New Times Roman";
+}
